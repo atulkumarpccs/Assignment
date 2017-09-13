@@ -5,7 +5,7 @@
 #include <Security.h>
 #include <ParkPrice.h>
 
-class RecordReceipt :public Vehicle, public Security,public ParkPrice
+class RecordReceipt :public Vehicle, public Security, public ParkPrice
 {
 
 private:
@@ -13,7 +13,7 @@ private:
 	Entrytime();
 	ExitTime();
 	void TotalTime();
-	int TotalChages();
+	int TotalCharges();
 	int Parking Location();
 
 
