@@ -50,17 +50,6 @@ private:
 
 };
 
-CarPark::CarPark()
-{
-	cout << "constructer of businees class" << endl;
-}
-
-CarPark::~CarPark()
-{
-	cout << "Distructer of businees class" << endl;
-}
-
-
 int main(int argc, const char * argv[])
 
 {
