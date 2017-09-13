@@ -10,8 +10,12 @@
 
 #include<iostream>
 #include<string>
+
 #include<Kisok.h>
 #include<Vehicle.h>
+#include<ParkPrice>
+#include<RecordReceipt>
+#include<Security>
 
 #define NO OF KISOK 2
 #define NO OF VEHICLE 1000
