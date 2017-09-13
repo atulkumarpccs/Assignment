@@ -12,6 +12,7 @@ public:
 	
 protected:
   /* Overridinding the function of business and Base class  */
+  Parking SecurityOption();
 		
 private:
 
