@@ -11,11 +11,11 @@
 #include<iostream>
 #include<string>
 
-#include<Kisok.h>
-#include<Vehicle.h>
-#include<ParkPrice>
-#include<RecordReceipt>
-#include<Security>
+#include<DomainClass/Kisok.h>
+#include<DomainClass/Vehicle.h>
+#include<DomainClass/ParkPrice>
+#include<DomainClass/RecordReceipt>
+#include<DomainClass/Security>
 
 #define NO OF KISOK 2
 #define NO OF VEHICLE 1000
