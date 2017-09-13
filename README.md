@@ -8,6 +8,7 @@ Developing a few classes with C++ to model a `CAR PARK`
 ## Use Case:
  
 Design a car park which has capacity to park vehicles (two wheeler, car, trucks).
+<https://github.com/atulkumarpccs/Assignment/tree/master/Design>
 
 ## Requirement:
 
