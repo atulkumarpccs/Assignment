@@ -8,7 +8,8 @@
 /*TODO: Need to be removed in Cpp file */
 using namespace std;  
 
-class Vehicle {
+class Vehicle :public 
+{
 
 public:
 
