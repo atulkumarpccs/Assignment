@@ -16,10 +16,8 @@ public:
 
 	// uniform initilisation to be changed here
 
-	Vehicle(int vehicleRegistartionId, string vehicleCompanyName ):Vehicle m_VehicleRegestrationId(vehicleRegistartionId),
-		m_VehicleComapanyName(vehicleCompanyName)
-	{
-	} 
+	Vehicle()
+	virtual ~Vehicle();
 protected:
 
 		int mVehicleSize;
