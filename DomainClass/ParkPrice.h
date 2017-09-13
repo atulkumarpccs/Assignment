@@ -7,6 +7,11 @@ class ParkingPrice :public security,public vehicle
 
 public:
 
+        /* Constructer and destructer */
+
+	ParkingPrice()
+	virtual ~ParkingPrice();
+	
 	int SizeOfVehicle;
 	int ParkingLocation;
 	
@@ -20,6 +25,11 @@ private:
 	const int Motocyclesizelot = 0.5;
 	int calculate Price();
 
+/*Disallow assignement and pass by value*/
+	
+	ParkingPrice(const ParkingPrice & src);
+
+	ParkingPrice& operator = (const ParkingPrice &src);
 
 };
 
