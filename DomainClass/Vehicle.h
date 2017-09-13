@@ -14,7 +14,7 @@ class Vehicle :public CarPark
 
 public:
 
-	// uniform initilisation to be changed here
+	/* Constructer and destructer */
 
 	Vehicle()
 	virtual ~Vehicle();
