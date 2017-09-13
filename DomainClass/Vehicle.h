@@ -23,6 +23,12 @@ public:
 protected:
 
 		int mVehicleSize;
+		
+		/* Overridinding the function of business class */
+		 void parkvehicle();
+		 void Unparkvehicle();
+	         void Entrytime();
+	         void Exittime();
 private:
 
 	void VehicleEntryTime();
@@ -65,6 +71,8 @@ private:
 
 	virtual void VehicleGetEntryTime() const;
 	virtual void VehicleSetExitTime();
+	
+	
 
 
 };
