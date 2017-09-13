@@ -5,10 +5,8 @@ class Security:protected Vehicle, public CarPark
 {
 
 public:
-	    Security(int SecurityLevel_First, int SecurityLevel_Second) :m_SecurityLevel_First(SecurityLevel_First),
-		m_SecurityLevel_Second(SecurityLevel_Second)
-	{
-	}
+	 Security();
+	 virtual ~Security()
 	
 protected:
   /* Overridinding the function of business and Base class  */
@@ -18,6 +16,12 @@ private:
 
 	int m_SecurityLevel_First;      /*without CCTV */
 	int m_SecurityLevel_Second;     /*with CCTV */
+	
+	/*Disallow assignement and pass by value*/
+	
+	Security(const Security & src);
+
+	Security& operator = (const Security &src);
 
 
 };
