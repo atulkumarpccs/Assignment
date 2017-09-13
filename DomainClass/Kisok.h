@@ -10,7 +10,7 @@ class Kisok :public CarPark
 
 public:
 	/*
-	*TODO: Overdide  some of the functionality here of business class here specific to kisok support or limitation
+	*TODO: Override  some of the functionality here of business class here specific to kisok support or limitation
 	*/
 
 protected:
