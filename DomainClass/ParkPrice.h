@@ -18,6 +18,7 @@ private:
 	const int Trucksizelot = 2;
 	const int Carsizelot = 1;
 	const int Motocyclesizelot = 0.5;
+	int calculate Price();
 
 
 };
