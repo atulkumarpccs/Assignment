@@ -7,6 +7,11 @@
 
 class RecordReceipt :public Vehicle, public Security, public ParkPrice
 {
+public:
+/* Constructer and destructer */
+
+	RecordReceipt()
+	virtual ~RecordReceipt();
 
 private:
 
@@ -15,6 +20,12 @@ private:
 	void TotalTime();
 	int TotalCharges();
 	int Parking Location();
+	
+	/*Disallow assignement and pass by value*/
+	
+	RecordReceipt(const RecordReceipt & src);
+
+	RecordReceipt& operator = (const RecordReceipt &src);
 
 
 };
