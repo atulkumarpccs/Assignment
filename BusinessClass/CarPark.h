@@ -21,10 +21,12 @@ using namespace std;
 class CarPark
 {
 public:
-	 CarPark(); //consctructer
-	~CarPark();   //descructer
+	/*consctructer*/
+	 CarPark(); 
+	/*descructer*/
+	~virtual CarPark();   
 
-				  //Function are made virtual so other class 
+      /*Function are made virtual so other class can be derived from here */
 	virtual void parkvehicle();
 	virtual void Unparkvehicle();
 	virtual void Entrytime();
@@ -35,12 +37,12 @@ public:
 	virtual Expected timeforparking();
 	virtual ParkingRecepiet();
 
-	//option provided to the admin of parking setter & getter
+	/*option provided to the admin of parking setter & getter*/
 	virtual bool GetParkingstatus();
 	virtual bool SetParkingAvalibility();
 
 private:
-	//Disallow assignement and pass by value
+	/*Disallow assignement and pass by value*/
 	
 	CarPark(const CarPark & src);
 
