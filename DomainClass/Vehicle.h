@@ -72,6 +72,11 @@ private:
 	virtual void VehicleGetEntryTime() const;
 	virtual void VehicleSetExitTime();
 	
+	/*Disallow assignement and pass by value*/
+	
+	Vehicle(const Vehicle & src);
+
+	Vehicle& operator = (const Vehicle &src);
 	
 
 
