@@ -1,5 +1,5 @@
 /*
-*This file is introduced for the kisok use in parking system which would be 
+*This file is introduced for the kisok use in parking system which is derived Carpark 
 */
 #ifndef KISOK_H
 #define KISOK_H
