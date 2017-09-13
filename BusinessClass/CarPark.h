@@ -36,9 +36,10 @@ public:
 	virtual Parking SecurityOption();
 	virtual Expected timeforparking();
 	virtual ParkingRecepiet();
-
+	
+protected:
 	/*option provided to the admin of parking setter & getter*/
-	virtual bool GetParkingstatus();
+	virtual bool GetParkingstatus() const;
 	virtual bool SetParkingAvalibility();
 
 private:
