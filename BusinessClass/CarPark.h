@@ -1,10 +1,12 @@
-#ifndef CAR_H
-#define CAR_H
+
 /*
 *This is business class of car parking application which provides the functlity to the user /admin 
 * One businees class & per application & domains class can be multiple
 * In future extension of this application so design patern can be applied on this class like Factory
 */
+#ifndef CAR_H
+#define CAR_H
+
 
 #include<iostream>
 #include<string>
@@ -44,10 +46,6 @@ private:
 
 	CarPark& operator = (const CarPark &src);
 
-	
-
-	
-
 };
 
 CarPark::CarPark()
@@ -64,15 +62,12 @@ CarPark::~CarPark()
 int main(int argc, const char * argv[])
 
 {
-
-
-	/*
+        /*
 	*use of aggergatation object craetion of both of object for Kisok and vehicle
 	*/
 	Kisok::Kisok * Obj1;
 	Vehicle::Vehicle *obj2;
-
-
+        
 	return 0;
 
 }
