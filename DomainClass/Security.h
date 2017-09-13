@@ -1,7 +1,7 @@
 #include<Vehicle.h>
 
 
-class Security:public Vehicle
+class Security:protected Vehicle, public CarPark
 {
 
 public:
@@ -11,6 +11,8 @@ public:
 	}
 	
 protected:
+  /* Overridinding the function of business and Base class  */
+		
 private:
 
 	int m_SecurityLevel_First;      /*without CCTV */
