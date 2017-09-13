@@ -2,7 +2,7 @@
 #define PARKPRICE_H
 #include<security.h>
 
-class ParkingPrice :public security
+class ParkingPrice :public security,public vehicle
 {
 
 public:
