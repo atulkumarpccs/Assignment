@@ -10,8 +10,8 @@ class RecordReceipt :public Vehicle, public Security, public ParkPrice
 
 private:
 
-	Entrytime();
-	ExitTime();
+	int Entrytime();
+	int ExitTime();
 	void TotalTime();
 	int TotalCharges();
 	int Parking Location();
