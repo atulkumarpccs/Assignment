@@ -5,7 +5,8 @@
 #include<iostream>
 #include<string>
 
-using namespace std;  //need to bemoved in Cpp file
+/*TODO: Need to be removed in Cpp file */
+using namespace std;  
 
 class Vehicle {
 
@@ -17,13 +18,9 @@ public:
 		m_VehicleComapanyName(vehicleCompanyName)
 	{
 	} 
-
-	protected:
+protected:
 
 		int mVehicleSize;
-
-//added me here
-
 private:
 
 	void VehicleEntryTime();
@@ -57,12 +54,12 @@ private:
 	};
 
 	int m_VehicleRegestrationId;
-	//assumtion it's only digit 
+	/*assumtion it's only digit */
 	int m_m_VehicleRegestrationNo;
 
 	string m_VehicleComapanyName;
 
-	//Getter & seeter for the Vehicle time
+	/*Getter & seeter for the Vehicle time */
 
 	virtual void VehicleGetEntryTime();
 	virtual void VehicleSetExitTime();
