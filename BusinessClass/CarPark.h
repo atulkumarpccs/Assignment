@@ -23,7 +23,7 @@ class CarPark
 public:
 	/*consctructer*/
 	 CarPark(); 
-	/*descructer*/
+	/*Virtual descructer*/
 	~virtual CarPark();   
 
       /*Function are made virtual so other class can be derived from here */
