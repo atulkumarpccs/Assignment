@@ -8,7 +8,7 @@
 /*TODO: Need to be removed in Cpp file */
 using namespace std;  
 
-class Vehicle :public 
+class Vehicle :public CarPark
 {
 
 public:
@@ -60,9 +60,9 @@ private:
 
 	string m_VehicleComapanyName;
 
-	/*Getter & seeter for the Vehicle time */
+	/*Getter & setter for the Vehicle time */
 
-	virtual void VehicleGetEntryTime();
+	virtual void VehicleGetEntryTime() const;
 	virtual void VehicleSetExitTime();
 
 
