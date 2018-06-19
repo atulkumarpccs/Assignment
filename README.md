@@ -1,5 +1,5 @@
 # Design
-* Developing a few classes with C++ to model a `CAR PARKING`
+* Object Oriented design for the `CAR PARKING`
 
 ## Coding Guidlines
 * <https://google.github.io/styleguide/cppguide.html#C++11>
