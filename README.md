@@ -1,5 +1,5 @@
-# Assignment
-* Developing a few classes with C++ to model a `CAR PARK`
+# Design
+* Developing a few classes with C++ to model a `CAR PARKING`
 
 ## Coding Guidlines
 * <https://google.github.io/styleguide/cppguide.html#C++11>
